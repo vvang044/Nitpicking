@@ -1,0 +1,32 @@
+[
+        {
+            "header":"15% OFF",
+            "paragraph": "your order of $75 or more*,PLUS FREE SHIPPING,Use code: BACKYARD",
+            "link":"https://preview.vitaminshoppe.com/c/best-sellers/N-cp99qp",
+            "tracking":"{id :  '2006_BACKYARD 15p off 75 Homepage Main Billboard 1', position : 'Homepage Main Billboard 1', name : '2006_BACKYARD 15p off 75', creative: '15% Off'}",
+            "scene7":"https://s7.vitaminshoppe.com/is/image/VitaminShoppe/BACKYARD_Coupon_DESKTOP_A1_V2?wid=802&hei=532&fmt=pjpeg&qlt=75,0&op_sharpen=0&resMode=sharp2&op_usm=1.75,0.3,2,0&iccEmbed=0",
+            "arealabel":"null",
+            "imageAlt":""
+            
+          },
+          {
+            "header":"50% OFF",
+            "paragraph": "Buy One, Get One,Optimum Nutrition, BSN, & ABB Performance",
+            "link":"https://preview.vitaminshoppe.com/c/buy-one-get-one-50-off-optimum-bsn-abb-brands/N-cp99yq",
+            "tracking":"{id :  '2006_Optimum BSN ABB BOGO50 Homepage Small Billboard 1', position : 'Homepage Small Billboard 1', name : '2006_Optimum BSN ABB BOGO50', creative: 'BOGO50'})",
+            "scene7":"https://s7.vitaminshoppe.com/is/image/VitaminShoppe/OptimumBSN_bogo50_052520_DESKTOP_A2?wid=574&hei=258&fmt=pjpeg&qlt=75,0&op_sharpen=0&resMode=sharp2&op_usm=1.75,0.3,2,0&iccEmbed=0",
+            "arealabel":"BUY ONE, GET ONE 50% OFF Optimum Nutrition, BSN and ABB Performance Shop sale.",
+            "imageAlt":""
+            
+          },
+          {
+            "header":"50% OFF",
+            "paragraph": "Buy One, Get One,Bang drink cases",
+            "link":"https://preview.vitaminshoppe.com/b/vpx-vital-pharmaceuticals/N-9cv",
+            "tracking":"{id :  '2006_Bang BOGO50 Homepage Small Billboard 2 ', position : 'Homepage Small Billboard 2 ', name : '2006_Bang BOGO50', creative: 'BOGO50'})",
+            "scene7":"https://s7.vitaminshoppe.com/is/image/VitaminShoppe/Bang_bogo50_052520_DESKTOP_A2_TEXT_RIGHT?wid=574&hei=258&fmt=pjpeg&qlt=75,0&op_sharpen=0&resMode=sharp2&op_usm=1.75,0.3,2,0&iccEmbed=0",
+            "arealabel":"Buy one get one 50% Off men's health favorites Shop sale.",
+            "imageAlt":""
+           
+          }
+      ]

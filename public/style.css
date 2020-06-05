@@ -1,0 +1,288 @@
+body{
+    background-color: black;
+    color: wheat;
+}
+
+/* modal styles start here */
+
+h4{
+    font-size: 1.5rem;
+    color: #151444;
+    background-color: #d9e524;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h5{
+    margin-top: 10px;
+}
+
+.modal-content{
+    background-color: #720327;
+    color: white;
+    margin-top: 25%;
+    width: 118%;
+    border-radius: 19px;
+  }
+  
+.modal-body{
+    margin-top: 7px;
+}
+
+  .modal-footer{
+    border: none;
+  }
+  
+  #myModal{
+    background-color:black;
+    opacity: 1.5
+  }
+
+.modal-header{
+    display: block;
+    text-align: center;
+}
+
+
+ .modal-body p{
+    
+        background-color: #05548c;
+        color: #fff;
+        padding: 0 5px;
+        border-radius: 4px;
+        letter-spacing: 1px;
+        width: 478px;
+        word-wrap: break-word;
+
+} 
+
+/* .modal-body label{
+    display: inline-block;
+    margin-bottom: .5rem;
+    width: 170px;
+    height: 33px;
+    text-align: right;
+    background-color: #d43e06;
+    color: #fff;
+    padding-right: 5px;
+
+} */
+  
+  /* .modal-footer{
+    border: none;
+  }
+   */
+
+
+  /* #myModal{
+    background-color:black;
+    opacity: 1.5
+  } */
+
+  /* .modal.show .modal-dialog{
+      margin-top: 140px;
+  } */
+
+/* modal styles ends here */
+
+
+/* navigation styles start here */
+.bg-dark{
+	background-color: black !important;
+}
+
+
+
+.dropdown-item{
+	background-color: #1dd1a1 !important;
+	border-radius: 2px;
+}
+
+nav a{
+	color: white;
+}
+
+.navbar{
+    margin-left:186px;
+}
+
+.dropdown-menu{
+	background-color: black !important;
+}
+
+ h2{
+	font-size: 2rem;
+	text-align: center;
+	margin-top:-47px;
+}
+
+/* navigation styles end here */
+h2{
+    text-align: center;
+}
+
+
+.assetname, .assetdescription, .assetLink, .assetTracking, .assetImageAlt, .assetAriaLabel, .assetScene7{
+    display: flex;
+}
+
+#header, #description, #link, #tracking, #arialabel, #seceneSeven{
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#header, #description{
+    background-color: #059910;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    width: 115px;
+    height: 26px;
+    color: #fff;
+    text-align: right;
+    background-color: #d43e06;
+    padding-right: 5px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+.aOne-wrapper p{
+    background-color: #05548c;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    width: 478px;
+    word-wrap: break-word;
+}
+
+.image-wrapper{
+    width: 512px;
+    height: 297px;
+    margin-left: 34px;
+}
+
+.codedAone{
+    float: left;
+    width: 120px;
+    text-align: center;
+    margin-left: 24px;
+}
+
+#captureAOne{
+        position: absolute;
+        top: 0;
+        width: 405px;
+        margin-left: 24px;
+        
+}
+
+.captureDrop{
+    width:445px;
+    height:272px;
+    background-color: purple;
+    margin-left:171px;
+    position: relative;
+    border:2px dashed #fff;
+
+}
+
+.fromCreative{
+    top: 180px;
+    position: absolute;
+    right: 310px;
+}
+
+
+#result-container {
+    left: 809px;
+    position: absolute;
+    top: 355px;
+    height: 272px;
+    width: 445px;
+    background-color: #800080;
+    border: 2px dashed #fff;
+
+  }
+  
+  img {
+    max-height: 250px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  #drop-zone{
+    top: 100px;
+    width: 194px;
+    left: 116px;
+    text-align: center;
+    position: relative;
+  }
+
+  /* aOne Styles ends here */
+
+  /* aFull styles starts here */
+  .aFull h2{
+	font-size: 2rem;
+	text-align: center;
+	margin-top:-47px;
+}
+
+
+    .aFull img{
+        max-width: 854px;
+        max-height: 373px;
+        display: block;
+        margin: 10px auto;
+       
+    }
+
+
+    .aFull-bottom-left{
+        height: auto;
+        width: 100%;     
+        margin-top: 10px;
+        z-index: 1;
+        padding-left:2px;
+    }
+
+     .assetname, .assetdescription, .assetLink, .assetTracking, .assetAriaLabel, .assetScene7{
+        margin-bottom:2px;
+    }
+
+    
+   #aOneheader, #aTwoheader, #aThreeheader, #aOnedescription, #aTwodescription, #aThreedescription{
+        background-color: #059910;
+    }
+   
+
+
+
+    .aFull-bottom-left p{
+        background-color: #05548c;
+        color: #fff;
+        border-radius: 4px;
+        margin: 0;
+        width: 100%;
+        word-wrap: break-word;
+        border: 1px solid white;
+    }
+
+
+    .aOnefull, .aTwofull, .aThreefull{
+        margin-top: 25px;
+    }
+
+  /* aFull styles ends here */
+
+  /* bFull styles starts here */
+  .bFullImage-wrapper img{
+      max-height: 320px;
+      display: block;
+      margin: 10px auto;
+  }
+  /* bFull styles ends here */

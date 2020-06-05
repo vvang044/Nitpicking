@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>$(document).ready(function(){ $("#myModal").modal('show'); }); </script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">-->
+    <title>JARVIS Automation Tool</title>
+</head>
+<body>
+
+<!-- modal starts here -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+<!--         <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        <h4 class="modal-title"> ~ JARVIS ~</h4>
+        <h5>The Nitpicking Automation Tool</h5>
+      </div>
+      <div class="modal-body">
+        <div class="assetname"><label for="assetname">H2 header : </label><p>$10 OFF or 50% OFF</p></div>
+        <div class="assetLink"><label for="assetLink"> Link : </label><p>https://www.vitaminshoppe.com/c/best-sellers/N-cp99qp</p></div>
+
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">LET'S AUTOMATE</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- modal ends here -->
+
+    <nav class="navbar navbar-expand-sm container" style="color:white;">
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Menu
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="aFull.html">A Full</a>
+              <a class="dropdown-item" href="bfull.html">B Full</a>
+              <a class="dropdown-item" href="cfull.html">C Full</a>
+              <a class="dropdown-item" href="crossPromo.html">CPCM</a>
+              <a class="dropdown-item" href="featureProdSpotlight.html">FProdSpot</a>
+              <a class="dropdown-item" href="heroBanner.html">Hero Banner</a>
+              <a class="dropdown-item" href="dealsDrawerAll.html">DealsDrawerAll</a>
+      
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- end of navigation -->
+
+
+
+   <div class="container-fluid aOne">
+    <h2> ~ JARVIS OR NITPICKING ~ </h2> 
+       <div class="row">
+        
+           <div class="aOne-wrapper">
+               <div class="assetname"><label for="assetname">Asset Header : </label><p id="header"></p></div>
+               <div class="assetdescription"><label for="assetdescription" contenteditable="true" spellcheck="true">Description : </label><p id="description"></p></div>
+               <div class="assetLink"><label for="assetLink"> Link : </label><p id="link"></p></div>
+               <div class="assetTracking"><label for="assetTracking"> Tracking : </label><p id="tracking"></p></div>
+               <div class="assetScene7"><label for="assetScene7">Scene 7 : </label><p id="sceneSeven"></p></div>
+               <div class="assetAriaLabel"><label for="assetAriaLabel"> Aria Label : </label><p id="arialabel"></p></div>
+               <div class="assetImageAlt"><label for="assetAriaLabel"> Image Alt: </label><p id="aOneimageAlt"></p></div>
+           </div>
+        <div class="image-wrapper">
+            <div class="aOneImage">
+                <label for="codedAone" class="codedAone">Coded By Dev :</label>
+                <div class="captureDrop">
+                    <img src="./captureA1.png" id="captureAOne" alt="Screenshot of Section A1"> 
+                </div>
+                
+            </div>
+        </div>
+     
+            <div class="fromCreative">
+                <label for="fromCreative" class="fromCreative">From Creative :</label>
+            </div>     
+       
+        
+      
+          <div id="result-container">
+            <!-- <input type="file"> to choose file from explorer -->
+            <label id="drop-zone">
+                Drag N Drop   
+              </label>
+          </div>
+        
+           <!-- <div class="col-md-4"></div>
+           <div class="col-md-4"></div> -->
+       </div>
+   </div>
+    <script src="./aOneResult.js"></script>
+</body>
+</html>
